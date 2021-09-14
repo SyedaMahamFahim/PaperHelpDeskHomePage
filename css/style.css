@@ -1,4 +1,7 @@
 
+.mobile-header{
+	display: none;
+}
 /* header 
 ------------------------------------*/
 .side-butn a {
@@ -573,4 +576,65 @@
 }
 .numbers sup {
     font-size: 16px;
+}
+
+@media only screen and (max-width: 1240px) and (min-width: 200px)  {
+	.header-main{
+		display: none;
+	}
+	.mobile-header{
+		display: block;
+	}
+	img.mobile-logo {
+		width: 220px;
+	}
+	a.mobile-bar {
+		background: var(--default-color);
+		color: white;
+		padding: 05px 10px;
+	}
+	.side-butn a {
+		top: 70%;
+	}
+	
+	.slider-wrapper {
+		padding-top: 0px;
+		/* margin-top: -64px; */
+	}
+
+	
+}
+@media only screen and (max-width: 766px) and (min-width: 200px)  {
+	.header-main{
+		display: none;
+	}
+	.mobile-header{
+		display: block;
+	}
+	img.mobile-logo {
+		width: 220px;
+	}
+	a.mobile-bar {
+		background: var(--default-color);
+		color: white;
+		padding: 05px 10px;
+	}
+	.side-butn a {
+		top: 70%;
+	}
+	.home-banner{
+		height: max-content;
+	}
+	.slider-wrapper {
+		padding-top: 0px;
+		/* margin-top: -64px; */
+	}
+	
+	.banner-form {
+		width: auto;
+		margin-top: 40px;
+		margin-right: 0px;
+	}
+
+	
 }
