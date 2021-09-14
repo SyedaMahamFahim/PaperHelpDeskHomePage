@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/roots.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>PaperHelpDesk Service</title>
+  </head>
+  <body>
+    <header class="header-main">
+      <div class="top-bar d-none d-lg-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="emailsec">
+                <a href="mailto: support@paperhelpdesk.co"
+                  ><span class="icon-envelope2"></span>
+                  support@paperhelpdesk.co</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <ul class="top-info-list">
+                <li>
+                  <a href="tel:+441616603238 "
+                    ><span><img class="flag" src="images/uk-flag.png" /></span>
+                    +44-161-660-3238
+                  </a>
+                </li>
+
+                <li>
+                  <a href="tel:+12132212855"
+                    ><span><img class="flag" src="images/usa-flag.png" /></span>
+                    +1-213-221-2855
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    onclick="setButtonURL();"
+                    target="_self"
+                    ><span class="icon-chat"></span> Live Chat</a
+                  >
+                </li>
+                <li>
+                  <a href="javascript:;" class="btncontact btn-main gotocontact"
+                    >Let's Get Started</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-area-full">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 logo-area">
+              <div class="logo">
+                <a href="https://paperhelpdesk.co/">
+                  <img
+                    class="img-fluid"
+                    src="images/logo-paperhelpdesk.svg"
+                    alt="*"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-10 d-flex">
+              <div class="main-menu align-self-center d-none d-lg-block">
+                <ul class="forpgactive">
+                  <li class="">
+                    <a href="https://paperhelpdesk.co/essay-editing"
+                      >Essay Editing</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="https://paperhelpdesk.co/assignment-editing"
+                      >Assignment Editing</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="https://paperhelpdesk.co/dissertation-editing"
+                      >Dissertation Editing</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="https://paperhelpdesk.co/thesis-editing"
+                      >Thesis Editing</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="side-butn">
+      <a href="https://paperhelpdesk.co/plagiarism-checker.php">
+        GET FREE TURNITIN REPORT
+      </a>
+    </div>
+
+    <div class="slider-wrapper">
+      <section class="">
+        <div class="item">
+          <div
+            class="home-banner d-flex"
+            style="background-image: url('./images/banner.jpg')"
+          >
+            <div class="container align-self-center">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <div class="home-banner-content">
+                    <h1>
+                      WELCOME TO <strong>PAPER HELP DESK</strong>
+                      <span
+                        >QUALITY EDITING &amp; PROOFREADING SERVICE FOR YOUR
+                        PAPERS!</span
+                      >
+                    </h1>
+                    <a target="_self" href="" class="btn-theme-yellow"
+                      ><i class="fa fa-comments-o"></i> Chat With Our Expert</a
+                    >
+                    <a class="btncontact btn-theme-blue gotocontact"
+                      ><i class="fa fa-tty"></i> Let's Get Started</a
+                    >
+                  </div>
+                </div>
+
+                <div class="col-lg-4 offset-lg-2 col-md-4 offset-md-2">
+                  <div class="banner-form">
+                    <div class="headerr"></div>
+                    <h3>SIGN UP</h3>
+                    <section class="banform">
+                      <div class="container">
+                        <div class="row">
+                          <div class="">
+                            <div class="ban-form">
+                              <form
+                                class="cmxform"
+                                id="bannerform"
+                                method=""
+                                action=""
+                              >
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="fldset">
+                                      <input
+                                        id="username"
+                                        name="Name"
+                                        minlength="2"
+                                        type="text"
+                                        placeholder="Enter your name"
+                                        required=""
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-12">
+                                    <div class="fldset">
+                                      <input
+                                        id="cemail"
+                                        type="email"
+                                        name="Email"
+                                        placeholder="Enter email here"
+                                        required=""
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-12">
+                                    <div class="fldset">
+                                
+                                      <input
+                                        type="hidden"
+                                        name="ctry"
+                                        value="Pakistan Pakistan Pakistan Pakistan "
+                                      />
+                                      <input
+                                        type="hidden"
+                                        name="pc"
+                                        value="+92+92+92+92"
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-12">
+                                    <div class="fldset">
+                                      <input
+                                        name="submit"
+                                        type="submit"
+                                        placeholder="Connect With Us"
+                                        required=""
+                                      />
+
+                                      
+                                      <input
+                                        type="hidden"
+                                        name="hiddencapcha"
+                                        value=""
+                                      />
+                                      <input
+                                        type="hidden"
+                                        id="location"
+                                        name="locationURL"
+                                        value="https://paperhelpdesk.co/"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor sed itaque pariatur aperiam vel natus rem consectetur totam corrupti quod fugit cupiditate provident quo quis, ducimus recusandae at odit ullam! Minus earum eaque nesciunt soluta vitae quia unde tempora quo? Deserunt, unde deleniti! Impedit sit facere ipsum nesciunt nobis quibusdam. Ipsum explicabo tempora deserunt repellendus vitae. Illum vel blanditiis nesciunt deleniti quaerat. Cupiditate quisquam asperiores distinctio recusandae aperiam, similique, debitis id laboriosam doloribus odio exercitationem fugit ut nihil repellat sapiente harum illum itaque commodi nemo! Quasi enim in nihil incidunt corporis laboriosam dolor, officiis repellat vel dolores quia atque tenetur esse eligendi temporibus quis aliquid et ex labore obcaecati placeat sit! Est architecto quasi, a odit harum, nobis exercitationem eum praesentium doloremque delectus vero id facere quaerat aliquid blanditiis tempora reprehenderit eaque earum quidem illum nesciunt, perferendis nemo eveniet. Aliquam veniam suscipit consectetur similique libero iusto quia consequatur esse, est obcaecati ex ullam atque odio voluptates quos illum sit rerum vero dolores voluptatem tempore. Qui maxime, asperiores eaque voluptatibus ab debitis rem ex molestiae! Nostrum tenetur possimus eos unde molestias ratione laborum illum saepe repudiandae commodi totam ab quos doloribus sunt cumque beatae ullam laboriosam recusandae hic voluptatibus, aperiam illo minus dicta atque! Id quae quod, veritatis vel, eos nulla vitae repellendus unde perferendis pariatur blanditiis provident officiis amet, voluptate repellat quam! Repellendus excepturi, laboriosam voluptate iusto dolore at vero, facere id magni debitis dicta nesciunt asperiores totam libero non veniam adipisci doloremque enim! Nulla excepturi, officia sed quidem animi labore non architecto. Quae error, laboriosam at voluptatibus eaque sunt culpa minus. Magnam dolorum exercitationem consectetur at nostrum, fuga laborum illo possimus quibusdam doloribus molestiae fugiat, soluta eligendi nam tenetur consequuntur. Mollitia, corporis veniam eveniet blanditiis quae sed, natus laudantium architecto aliquid, est neque odit quia nemo recusandae a labore. Lorem500 Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptatibus officiis ratione ipsam tempore tenetur nemo. Reprehenderit necessitatibus nulla quae illo in quo numquam a perferendis, nostrum cum, optio molestiae repellat magnam corporis quos nobis porro voluptates ducimus tenetur veniam cumque, fugit harum delectus eligendi. Ipsam suscipit aliquam magnam totam, iure aperiam numquam sed, consequatur velit commodi et quos amet. Possimus autem architecto, impedit minima expedita officiis magnam ipsum voluptate ipsam, eos ullam officia mollitia deserunt est magni vero quia odit pariatur maxime, unde asperiores aspernatur. Impedit, adipisci, deleniti at facilis vel reiciendis quas dolor, ut laborum id autem laboriosam optio quis reprehenderit odio? Officiis debitis beatae, eius, quam magni, voluptates omnis reprehenderit illum a consequatur saepe rem tempora dolorem eum consequuntur officia sint alias asperiores? Animi dicta inventore impedit necessitatibus vero quas magnam neque mollitia, labore sed suscipit consectetur quos in, dolores at dolor debitis ipsa? Vitae eum dolores dolorem maxime nemo numquam fugiat ratione molestias praesentium veniam, sit velit unde animi impedit ipsum est deleniti et, in, accusantium earum asperiores? Consequatur consequuntur aliquam quae aspernatur exercitationem quibusdam illo dignissimos facere autem soluta, explicabo tempore dolore, non nobis veniam maiores expedita ratione ducimus odio corporis illum corrupti dolorum praesentium. Sunt debitis corrupti voluptates distinctio. Provident assumenda earum vitae minima cupiditate, libero quos ipsum sequi corporis quasi explicabo unde laudantium ducimus ad fugiat quo pariatur accusamus hic itaque saepe atque corrupti rem! Iusto sed maiores nemo facere, tempora eveniet natus laborum, neque id velit alias reiciendis assumenda aliquam sit omnis minus excepturi. Iusto aut tempore atque ad autem necessitatibus quos ut laudantium ducimus officia nam repudiandae excepturi porro enim, fuga est omnis culpa voluptatibus similique ullam distinctio nulla sit! Eos non placeat aliquid, officia voluptatem alias animi voluptas temporibus delectus amet. Dolorem, ea officia excepturi quasi ab eaque, incidunt voluptates, quia sed id facere consequuntur temporibus nulla et. Iure esse veritatis nisi atque doloremque debitis maiores officiis, praesentium laboriosam perferendis saepe, recusandae tempora culpa. Ipsum reprehenderit quisquam, accusantium perferendis aliquam adipisci delectus soluta quo distinctio quis unde, qui accusamus aliquid incidunt possimus earum, recusandae dolorum. Molestias odio, magni unde recusandae fugiat exercitationem libero pariatur, non esse distinctio harum, at accusantium numquam corrupti consequuntur veritatis! Et, est nulla. Adipisci laboriosam iure error voluptatibus, repellendus itaque nam dolorum nesciunt tempore voluptate, accusantium harum id quod beatae voluptatum ullam culpa. Similique reprehenderit magnam quam suscipit corporis maxime alias architecto, recusandae neque totam doloribus at id quae officiis obcaecati voluptate fugiat dolores voluptates ipsam dicta voluptatem modi placeat? Corrupti quasi totam, nostrum veniam eveniet nulla labore ducimus perferendis, neque quia veritatis soluta cupiditate saepe, facere in. Sit architecto blanditiis delectus animi cumque tempore non cum iusto minus, qui provident voluptates impedit perferendis fugit magni numquam et doloremque ratione! Id dignissimos maxime qui laborum iste, nesciunt totam ipsa maiores! Deleniti in officiis totam ab minus. A beatae blanditiis placeat laudantium dignissimos nemo. Pariatur amet quidem unde laboriosam possimus! Facilis sequi velit, culpa officia ipsam nostrum, alias quibusdam, quae minus dignissimos quod! Ipsum necessitatibus, cum repellat tempore, unde reiciendis, dicta a culpa eaque impedit accusantium alias qui sint et iste ducimus saepe. In repellat possimus voluptates, cupiditate expedita impedit sapiente placeat maxime sequi eos consequuntur explicabo, ullam fugit veritatis ipsam tempore laudantium beatae magni molestiae blanditiis illo officia ad ipsa. Ducimus facere sint ullam fuga sequi, tempora quae perspiciatis repudiandae neque aliquam ipsa ad architecto quia, quaerat dolor perferendis nobis suscipit, autem assumenda cum! Et beatae quidem, saepe modi sed quas possimus unde labore adipisci exercitationem repellat perspiciatis accusamus alias, cumque incidunt amet illum fuga voluptas. Quo veniam assumenda, facilis ullam esse necessitatibus pariatur eligendi odit qui dolorem veritatis optio reprehenderit quibusdam molestiae quisquam accusantium repellendus quasi. Dolores culpa quod laboriosam laudantium, veritatis, doloremque nobis officiis quos similique dignissimos recusandae doloribus quidem distinctio cumque alias nam, libero itaque praesentium in totam voluptas! Eligendi, repudiandae minus fugit ea nostrum fuga dolore vero, dicta impedit veritatis labore voluptate tenetur inventore sit omnis obcaecati! Facilis iusto, similique blanditiis enim reiciendis maxime soluta natus saepe ab recusandae sint tempora voluptates nam ipsa, quae odit! Necessitatibus aliquid adipisci non! Dolor, ratione laborum quam consequatur obcaecati maiores culpa sit nemo necessitatibus reprehenderit fugiat laboriosam facere. Officia ad voluptates, delectus voluptatem sunt veniam molestiae iusto magnam! Minima possimus, esse molestias delectus eum dicta eveniet aliquam nisi enim mollitia incidunt sed, a sit. Quaerat quod atque eius a voluptates facere doloremque inventore consequuntur molestiae sit, autem dolorem quae id, cum temporibus esse non, ducimus maxime neque aliquam numquam quam impedit. Temporibus necessitatibus dolore iste aperiam sequi. Molestias quidem accusantium accusamus alias neque sunt officiis id. Iste quos quae quaerat quidem, eveniet eligendi, est atque distinctio non esse odio commodi aut iusto, quisquam expedita blanditiis exercitationem odit? Voluptatem, sequi provident. Nihil sint facilis, ipsam impedit qui, obcaecati, exercitationem corrupti nesciunt reprehenderit officia id laborum dignissimos mollitia architecto modi? Magnam quibusdam voluptatem quia quo odit ratione obcaecati, dolorum neque. Expedita doloremque corporis perspiciatis eius, veniam perferendis eos ullam iusto possimus iure voluptate odio. Vel cum rem ut sunt amet tempora quae similique, magni libero consequuntur cumque, officia error recusandae accusantium modi. Deserunt natus commodi a tempore modi fuga neque impedit, molestias, voluptas at sint obcaecati itaque excepturi quisquam nesciunt veritatis incidunt dicta. Cupiditate voluptas suscipit ratione? Asperiores saepe a ipsam sequi ab, cupiditate labore tempora voluptas molestias nihil obcaecati explicabo repudiandae maiores quas provident minus cumque enim quidem incidunt quam facilis, cum ipsum! Atque maxime nulla aliquam obcaecati laudantium deserunt nostrum dicta ea ad, velit similique, illum sunt nesciunt fuga magni blanditiis porro, exercitationem quo ullam dolor non ducimus suscipit ex laboriosam! Inventore autem, qui, ipsa alias a, nostrum deserunt exercitationem sint ullam beatae adipisci unde quaerat aspernatur ipsum laboriosam blanditiis? Eos magnam voluptatum dolore, explicabo, tempora, alias dolor at quasi ipsa quam esse. Iusto sunt quo doloremque accusantium illo illum dolorum qui perspiciatis? Consectetur voluptatum optio eum maiores quas earum labore praesentium hic, consequuntur incidunt iste nulla ipsa modi nostrum veniam minus beatae eligendi corporis ratione officia explicabo unde. Cumque omnis similique distinctio provident ducimus.</p>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

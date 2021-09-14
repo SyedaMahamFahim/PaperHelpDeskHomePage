@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+/* ===================================================Root============================================== */
+:root {
+    --primary-color: #68708745;
+    --primary-color-dark: #d3222a;
+    --secondary-color: #1f295d;
+    --secondary-color-dark: #131c4b;
+    --default-color: #666666;
+    --theme-dark: #333333;
+    --theme-lite: #666666;
+    --theme-white: #ffffff;
+    --theme-black: #000000;
+    --bg-lite: #f5f5f5;
+    --bg-dark: #18191a;
+    --primary-font-family: 'Titillium Web', sans-serif;
+    --secondary-font-family: 'Titillium Web', sans-serif;
+    --heading-font-family: 'Niramit', sans-serif;
+    --base-font-size: 14px;
+    --font-size-h1-home: 45px;
+    --font-size-h1-home-vmin: 8vmin;
+    --font-size-h1-inner: 40px;
+    --font-size-h1-inner-vmin: 7.2vmin;
+    --font-size-h2: 35px;
+    --font-size-h3: 28px;
+    --font-size-h4: 26px;
+    --font-size-h5: 24px;
+    --font-size-h6: 22px;
+}
+/* ===================================================Body============================================== */
+body {
+    font-family: var(--primary-font-family);
+    color: var(--default-color);
+    font-size: var(--base-font-size);
+    position: relative;
+}
+/* Main */
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+/* Divs */
+.d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+/* ===================================================Padding============================================== */
+.sec-padding-100 {
+	padding: 100px 0;
+}
+
+.sec-padding-90 {
+	padding: 90px 0;
+}
+
+.sec-padding-80 {
+	padding: 80px 0;
+}
+
+.sec-padding-70 {
+	padding: 70px 0;
+}
+
+.sec-padding-60 {
+	padding: 60px 0;
+}
+
+.sec-padding-xlarge {
+	padding: 50px 0;
+}
+
+.sec-padding-large {
+	padding: 40px 0;
+}
+
+.sec-padding-medium {
+	padding: 30px 0;
+}
+
+.sec-padding-small {
+	padding: 25px 0;
+}
+
+.sec-padding-xsmall {
+	padding: 10px 0;
+}
+/* ===================================================Margin============================================== */
+.sec-margin-100 {
+	margin: 100px 0;
+}
+
+.sec-margin-90 {
+	margin: 90px 0;
+}
+
+.sec-margin-80 {
+	margin: 80px 0;
+}
+
+.sec-margin-70 {
+	margin: 70px 0;
+}
+
+.sec-margin-60 {
+	margin: 60px 0;
+}
+
+.sec-margin-xlarge {
+	margin: 50px 0;
+}
+
+.sec-margin-large {
+	margin: 40px 0;
+}
+
+.sec-margin-medium {
+	margin: 30px 0;
+}
+
+.sec-margin-small {
+	margin: 25px 0;
+}
+
+.sec-margin-xsmall {
+	margin: 10px 0;
+}
+/* ========================================No Padding and No margin============================================== */
+.p-0 {
+	padding: 0;
+}
+
+.pt-0 {
+	padding-top: 0px;
+}
+
+.pb-0 {
+	padding-bottom: 0px;
+}
+
+.pl-0 {
+	padding-left: 0px;
+}
+
+.pr-0 {
+	padding-right: 0px;
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.mt-0 {
+	margin-top: 0px;
+}
+
+.mb-0 {
+	margin-bottom: 0px;
+}
+
+.ml-0 {
+	margin-left: 0px;
+}
+
+.mr-0 {
+	margin-right: 0px;
+}
+/* Divs */
+/* .col-md-4,.col-lg-4{
+    /* position: relative; */
+    /* width: 100%; */
+    /* min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+} */ */
+
+
+/* ===================================================Heading============================================== */
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p 
+{ margin: 0; padding: 0; }
+h1, .h1, h2, .h2 {font-family: var(--heading-font-family);}
+h3, .h3, h4, .h4, h5, .h5, h6, .h6{ font-family: var(--heading-font-family); padding-bottom: 10px;
+color: var(--theme-dark); }
+
+h2, .h2 { font-size: 6.7vmin; }
+h3, .h3 { font-size: var(--font-size-h3); font-weight: 600; }
+h4, .h4 { font-size: var(--font-size-h4); }
+h5, .h5 { font-size: var(--font-size-h5); }
+h6, .h6 { font-size: var(--font-size-h6); }
+h2,.h2 {
+    color: #171717;
+    line-height: 1.2;
+    font-weight: 700;
+    padding: 0 0 15px 0;
+    position: relative;
+    letter-spacing: -1px;
+    }
+h2 span,.h2 span { color:var(--primary-color);}
+  
+/* ===================================================Paragraph============================================== */
+
+p {
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0 0 20px;
+    margin:0px;
+    color: #687087;
+}
+p strong { 
+    color: black; 
+}
+p span {
+     color: black; 
+}
+
+/* ===================================================ul and li============================================== */
+
+ul, li {
+    list-style-type: none;
+}
+/* ===================================================Link a Tag ============================================== */
+a {
+    text-decoration: none;
+}
+a:hover {
+     text-decoration: none;
+}
+a:focus {
+     outline: none; 
+     text-decoration: none; 
+}
+/* ===================================================Image ============================================== */
+img {
+    border: 0px;
+    outline: none;
+}
+
+/* ===================================================Buttons ============================================== */
+
+.btn-theme-yellow {
+    background: #ffd30b;
+    transform: translateY(0rem);
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    color: #ffffff;
+    padding: 14px 30px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.btn-theme-yellow:hover,.btn-theme-blue:hover {
+    transform: translateY(-0.625rem);
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    color: #ffffff;
+}
+.btn-theme-blue {
+    background: #07a4e3;
+    transform: translateY(0rem);
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    color: #ffffff;
+    padding: 14px 30px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+}
