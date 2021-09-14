@@ -264,14 +264,6 @@ img {
     font-size: 18px;
     text-transform: capitalize;
 }
-.btn-theme-yellow:hover,.btn-theme-blue:hover {
-    transform: translateY(-0.625rem);
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -o-transition: 0.4s;
-    transition: 0.4s;
-    color: #ffffff;
-}
 .btn-theme-blue {
     background: #07a4e3;
     transform: translateY(0rem);
@@ -287,4 +279,26 @@ img {
     font-weight: 600;
     font-size: 18px;
     text-transform: capitalize;
+}
+.transfrom-btn{
+    transform: translateY(0rem);
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    color: #ffffff;
+    padding: 14px 30px;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.btn-theme-yellow:hover,.btn-theme-blue:hover,.transfrom-btn:hover {
+    transform: translateY(-0.625rem);
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    color: #ffffff;
 }

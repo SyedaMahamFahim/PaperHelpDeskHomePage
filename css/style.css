@@ -1,9 +1,8 @@
-
+/* ================================================Mobile Header ============================ =====*/
 .mobile-header{
 	display: none;
 }
-/* header 
-------------------------------------*/
+/* ================================================Header============================ =====*/
 .side-butn a {
 	left: -114px;
 	right: auto !important;
@@ -146,7 +145,7 @@
 .main-menu {
 	width: 100%;
 	display: inline-block;
-	float: right;
+	/* float: right; */
 	margin: 2px 0 0;
 }
 
@@ -264,14 +263,9 @@
 	list-style: none;
 }
 
-.dropdown>ul>li {}
-
 .dropdown>ul>li:before {
 	display: none;
 }
-
-.dropdown>ul>li+li {}
-
 .dropdown>ul>li>a {
 	color: #171717 !important;
 	font-size: 16px;
@@ -301,6 +295,7 @@
 	display: block;
 }
 
+/* Sticky Header */
 .stickyheader {
 	position: fixed;
 	z-index: 9999;
@@ -323,9 +318,7 @@
 	margin: 5px 0;
 }
 
-
-/* sticky social icons
-------------------------------------*/
+/* ================================================ sticky social icons============================ =====*/
 
 .sticky-container {
 	padding: 0px;
@@ -376,9 +369,9 @@
 	border-radius: 5px;
 	color: white;
 }
-/* Hero Section */
+/* ================================================ Hero Section============================ =====*/
+
 .slider-wrapper {
-	/* background: #11151b; */
 	width: 100%;
 	/* position: relative; */
 	padding-top: 130px;
@@ -578,7 +571,375 @@
     font-size: 16px;
 }
 
-@media only screen and (max-width: 1240px) and (min-width: 200px)  {
+/* ================================================What is included Section============================ =====*/
+.Whatinclude {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.text-center {
+    text-align: center!important;
+}
+.Whatinclude h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.31;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+.Whatinclude p {
+    display: block;
+    width: 100%;
+    margin: 17px 0 0;
+    font-size: 16px;
+    line-height: 1.38;
+    text-align: center;
+    color: #045281;
+}
+.services-section{
+	margin-top: 30px;
+}
+.faculty {
+    text-align: center;
+}
+.faculty h3 {
+    margin: 25px 0 0;
+    color: #000;
+    font-family: "GothamPro",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    font-weight: bold;
+}
+.faculty p {
+    margin: 15px 0 0;
+    color: #9c9c9c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+/* ================================================What we do============================ =====*/
+
+.what-we-do {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(4,82,129,0.05);
+}
+.what-we-do h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.31;
+    color: #000;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+.what-we-do img {
+    height: 50px;
+}
+.what-we-do h3 {
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.what-we-do p {
+    color: #545454;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.what-we-do-blue-btn{
+    padding-top: 30px;
+}
+.what-we-do-blue-btn a {
+    background-color: #03c1ff;
+    width: 100%;
+    float: left;
+    padding: 13px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+}
+.chat {
+    padding-top: 30px;
+}
+.chat a {
+    background-color: #ffd30b;
+    width: 100%;
+    float: left;
+    padding: 13px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+}
+/* ================================================Call to action Btns Section ============================ =====*/
+
+.cta-section{
+	text-align: center;
+    padding: 60px 0;
+    background-color: #03a3f7;
+}
+.cta-section h2 {
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 36px;
+}
+.cta-section p {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 0px;
+}
+.cta-chat-btn{
+	background-color: #ffd30b;
+	margin-right: 20px;
+}
+.new-cta {
+    background: #fff;
+    transform: translateY(0rem);
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    color: #000;
+    padding: 14px 30px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+/* ================================================How it works Section ============================ =====*/
+/* How it works */
+.howitworks {
+    padding: 60px 0;
+    background: #fff;
+    position: relative;
+}
+section.howitworks:before {
+    background-image: url(../images/dot-line.png);
+    position: absolute;
+    content: "";
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 165px;
+    margin-top: 165px;
+}
+.howitworks h2 {
+    position: relative;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 36px;
+}
+.howitworks p {
+    color: #9c9c9c;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+.circle {
+    border: 1px solid #a4cede;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+}
+.circle img {
+    height: 80px;
+    display: block;
+    margin: 4px auto;
+}
+.howitworks ul li {
+    text-align: center;
+    width: 23%;
+    /* border: 2px solid #fff; */
+    padding: 30px 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 11px;
+    min-height: 205px;
+    position: relative;
+}
+/* ================================================Editing anf Proofreading Section ==========================*/
+.editing-proofreading{
+	text-align: center;
+    padding: 60px 0;
+}
+.editing-proofreading-row{
+	display: flex;
+}
+.editing-proofreading-cols{
+	flex-basis: 50%;
+}
+.editing-proofreading h1{
+	color: black;
+font-weight: 400;
+    font-size: 36px;
+    text-align: left;
+    font-weight: bold;
+}
+.editing-proofreading p{
+	color: #9c9c9c;
+    font-size: 16px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+/* ================================================Main services  =================================*/
+.main-expert-editin-sec {
+    padding: 60px 0;
+    background-color: #07a4e3;
+}
+.exp-heading h2 {
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: bold;
+}
+.testi_box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 30px #04729e;
+    margin-top: 120px;
+    height: 330px;
+}
+
+.testi_box.testiText {
+    clear: both;
+    margin: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.testi_box ul {
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 15px;
+}
+.list-scroll li {
+    padding: 05px;
+}
+.list-scroll {
+    height: 94px;
+}
+/* ================================================Overcome section =================================*/
+
+.main-overcme-sec {
+    padding: 70px 0;
+    background-color: #fff;
+}
+.ovr-heading {
+    text-align: center;
+}
+.ovr-heading h2 {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    letter-spacing: 0;
+    font-size: 36px;
+    line-height: 42px;
+}
+.ovr-heading p {
+    color: #9c9c9c;
+    font-size: 16px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+}
+.impr-box1 {
+    padding-top: 20px;
+	margin: 20px 10px;
+}
+.impr-box1 i {
+    font-size: 45px !important;
+    line-height: 45px;
+    width: 45px;
+    color: #1062dc;
+    margin: 0px 0 30px 0;
+}
+.impr-box1 p {
+    color: #000;
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+/* ================================================Help Desk Section  =================================*/
+
+.help-desk-section{
+	background-color: #07a4e3;
+	color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 70px 0;
+    letter-spacing: 0;
+    font-size: 36px;
+    line-height: 42px
+
+}
+.help-desk-section h2{
+	font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 35px;
+    letter-spacing: 0;
+    font-size: 36px;
+    line-height: 42px;
+}
+.help-desk-section p{
+	color: white;
+    font-size: 16px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+}
+.help-desk-section a{
+	padding: 14px 60px;
+    margin-right: 20px;
+}
+
+
+
+
+/* ================================================Help Desk Section  =================================*/
+
+
+@media only screen and (max-width: 1024px) and (min-width: 200px)  {
 	.header-main{
 		display: none;
 	}
@@ -596,10 +957,8 @@
 	.side-butn a {
 		top: 70%;
 	}
-	
 	.slider-wrapper {
 		padding-top: 0px;
-		/* margin-top: -64px; */
 	}
 
 	
@@ -635,6 +994,32 @@
 		margin-top: 40px;
 		margin-right: 0px;
 	}
-
+	 .headerr {
+		height: 100px !important;
+	}
+	.testi_box.testiText {
+		margin: 2px 0 10px;
+	}
+	.howitworks ul li {
+		display: contents;
+	}
+	.circle{
+		margin-top: 20px;
+	}
+	.circle-ul{
+		margin-top: 20px;
+	}
+	.btncontact{
+		margin: 10px;
+	}
+	.editing-proofreading {
+		padding: 0px 0;
+	}
+	.editing-proofreading-row {
+		flex-direction: column;
+	}
+	img.editing-proofreading-img {
+		width: 305px;
+	}
 	
 }
