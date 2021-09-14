@@ -382,7 +382,7 @@
 
 .home-banner {
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	position: relative;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -538,4 +538,38 @@
 ::placeholder { 
     color: white;
     opacity: 1;
+}
+.bark-sec {
+    background-color: #f3f9fd;
+    padding: 25px 0px;
+}
+.bark-sec img {
+    max-width: 15%;
+    height: auto;
+    box-sizing: border-box;
+    border: 0;
+    vertical-align: middle;
+    float: left;
+    margin-right: 10px;
+}
+.bark-star {
+    float: left;
+}
+.bark-star p {
+    padding: 0;
+}
+.bark-sec img.stars {
+    width: 84%;
+    max-width: 100%;
+}
+.numbers {
+    float: left;
+}
+.numbers p {
+    padding: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+.numbers sup {
+    font-size: 16px;
 }
