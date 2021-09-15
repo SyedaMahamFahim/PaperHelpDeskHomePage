@@ -32,6 +32,20 @@
     --font-size-h5: 24px;
     --font-size-h6: 22px;
 }
+::selection {
+    color: var(--theme-white);
+    text-shadow: none;
+    background: var(--primary-color);
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: rgb(236, 237, 241);
+    border-radius: 0px;
+    border-left: 1px solid rgb(136, 136, 136);
+}
 /* ===================================================Body============================================== */
 body {
     font-family: var(--primary-font-family);
