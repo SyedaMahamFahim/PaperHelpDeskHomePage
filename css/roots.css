@@ -302,3 +302,18 @@ img {
     transition: 0.4s;
     color: #ffffff;
 }
+/* in */
+.input, .textarea {
+    border: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    line-height: 20px;
+    outline: none;
+    border-radius: 6px;
+    padding-left: 20px;
+    height: 110px;
+    font-size: 18px;
+    color: #989898;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
