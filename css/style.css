@@ -2,6 +2,23 @@
 .mobile-header{
 	display: none;
 }
+.offcanvas-body {
+    margin-top: 7%;
+}
+.mobile-li a{
+    color: #333333;
+    font-weight: 400;
+    display: block;
+    padding: 10px 24px;
+    border-bottom: 1px solid #d6d8db;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out
+}
+ul.mobile-ul {
+    padding-left: 0px;
+}
 /* ================================================Header============================ =====*/
 .side-butn a {
 	left: -114px;
