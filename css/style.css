@@ -391,7 +391,7 @@ ul.mobile-ul {
 .slider-wrapper {
 	width: 100%;
 	/* position: relative; */
-	padding-top: 130px;
+	padding-top: 123px;
 }
 #contact-form-input1::placeholder{
 	color: white;
@@ -771,7 +771,7 @@ section.howitworks:before {
     background-repeat: no-repeat;
     background-size: 100%;
     height: 165px;
-    margin-top: 165px;
+    margin-top: 185px;
 }
 .howitworks h2 {
     position: relative;
@@ -783,10 +783,19 @@ section.howitworks:before {
     font-weight: bold;
     font-size: 36px;
 }
+.howitworks ul li h3 {
+    /* position: relative; */
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
 .howitworks p {
     color: #9c9c9c;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
     padding-bottom: 40px;
 }
 .circle {
@@ -810,7 +819,7 @@ section.howitworks:before {
     padding: 30px 15px;
     display: inline-block;
     vertical-align: top;
-    margin: 0 11px;
+    margin: 0 9px;
     min-height: 205px;
     position: relative;
 }
@@ -1322,7 +1331,11 @@ section.testinomial-slider-section {
 }
 /* =========================================Mobile Section  =================================*/ 
 
-
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px;
+}
+}
 @media only screen and (max-width: 1024px) and (min-width: 200px)  {
 	.header-main{
 		display: none;
@@ -1425,4 +1438,5 @@ section.testinomial-slider-section {
     .Verified-people p {
             padding-top: 0;
         }
+      
 }
